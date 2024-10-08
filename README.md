@@ -51,27 +51,27 @@ Depending on your desktop environment, you can assign the script execution to a 
 
 2) Monitor: <br />
 
-        # cd /etc/systemd/system/
+        cd /etc/systemd/system/
     
 <br />
 
-    # sudo vim patan-cpu_monitor.service
+    sudo vim patan-cpu_monitor.service
     
 Paste inside (Be sure to replace YOURUSERNAME with your actual username.): <br />
     
-    #   [Unit]
-    #   Description=
-    #   After=multi-user.target
-    # 
-    #   [Service]
-    #   ExecStart=/home/YOURUSERNAME/code/Bash/cpu.sh -m
-    # 
-    #   [Install]
-    #   WantedBy=multi-user.target
+    [Unit]
+    Description=
+    After=multi-user.target
+    
+    [Service]
+    ExecStart=/home/YOURUSERNAME/code/Bash/cpu.sh -m
+    
+    [Install]
+    WantedBy=multi-user.target
 
 <br />
 
-    # sudo systemctl YOURUSERNAME-cpu_monitor.service
+    sudo systemctl YOURUSERNAME-cpu_monitor.service
 
 3) Boost: <br />
 Depending on your desktop environment, you can assign the script execution to a key. <br />
