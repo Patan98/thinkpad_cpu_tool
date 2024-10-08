@@ -61,4 +61,6 @@ Paste inside (Be sure to replace YOURUSERNAME with your actual username.): <br /
     #   [Install]
     #   WantedBy=multi-user.target
 
+<br />
+
     # sudo systemctl YOURUSERNAME-cpu_monitor.service
