@@ -45,6 +45,8 @@ Be sure to replace YOURUSERNAME in cpu.sh with your actual username. <br />
     
     # cd /etc/systemd/system/
     
+<br />
+
     # sudo vim patan-cpu_monitor.service
     
 Paste inside (Be sure to replace YOURUSERNAME with your actual username.): <br />
