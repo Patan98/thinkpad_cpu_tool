@@ -1,5 +1,8 @@
 # Thinkpad CPU tool
-Simple bash script to manage CPU power setting and prevent overheating using intel pstate, with vocal messages support. <br />
+
+![cpu](https://github.com/user-attachments/assets/ec39f11c-1045-4329-afb5-941a592926ca)
+
+Simple bash script to manage notebook CPU power setting and prevent overheating using intel pstate, with vocal messages support. <br />
 
 ## Idea
 The operation of the software is nsure on older Intel processor models (35W / 45W / 55w) optimal battery life and variable performance with just one click. <br />
