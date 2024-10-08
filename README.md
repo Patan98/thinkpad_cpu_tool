@@ -24,7 +24,7 @@ The overheat temperature is 80 degrees, in that case the CPU power is scaled imm
 If the temperature is between 75 and 80 degrees there is a tolerance of 15 seconds, after which the script scales the CPU power if the temperature has not dropped. <br />
 If the CPU has been scaled, it returns to its previous state after 15 seconds with temperature below 75 degrees. <br />
 
-# EXAMPLE <br />
+# Example <br />
     # OVERHEATING 1
     #                                                     CURRENT
     # 0---------37---------60---------70---------85---------100
