@@ -37,7 +37,7 @@ If the CPU has been scaled, it returns to its previous state after 15 seconds wi
 
 
 There are three execution arguments: <br />
-1) Switch: Fast Process: Scales CPU to the next value (if it is at 100% it starts again from 37%). Depending on your desktop environment, you can assign the script execution to a key. <br />
+1) Switch: Fast Process: Scales CPU to the next value (if it is at 100% it starts again from 37%). <br />
 2) Monitor: Continued Process: Enables temperature monitor and dynamically scales CPU based on temperature. <br />
 3) Boost: Continuous process: for intense use, it increases the overheating margin to 85 degrees, after 5 seconds of temperature above this threshold, the boost mode deactivates and the monitor mode is re-established. <br />
 
@@ -45,8 +45,13 @@ There are three execution arguments: <br />
 The two folders: code and code_data should be placed in the user's home folder. <br />
 The script works interacting with /sys/devices/system/cpu/intel_pstate, so if this folder is located somewhere else for you, replace it in cpu.sh <br />
 Be sure to replace YOURUSERNAME in cpu.sh with your actual username. <br />
-    
-    # cd /etc/systemd/system/
+
+1) Switch: <br />
+Depending on your desktop environment, you can assign the script execution to a key. <br />
+
+2) Monitor: <br />
+
+        # cd /etc/systemd/system/
     
 <br />
 
@@ -67,3 +72,6 @@ Paste inside (Be sure to replace YOURUSERNAME with your actual username.): <br /
 <br />
 
     # sudo systemctl YOURUSERNAME-cpu_monitor.service
+
+3) Boost: <br />
+Depending on your desktop environment, you can assign the script execution to a key. <br />
