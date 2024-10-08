@@ -57,7 +57,7 @@ Depending on your desktop environment, you can assign the script execution to a 
 
         sudo vim patan-cpu_monitor.service
     
-    Paste inside (Be sure to replace YOURUSERNAME with your actual username.): <br />
+    Paste this inside and safe (Be sure to replace YOURUSERNAME with your actual username.): <br />
     
         [Unit]
         Description=
@@ -71,7 +71,7 @@ Depending on your desktop environment, you can assign the script execution to a 
 
     <br />
 
-        sudo systemctl YOURUSERNAME-cpu_monitor.service
+        sudo systemctl patan-cpu_monitor.service
 
 3) Boost: <br />
 Depending on your desktop environment, you can assign the script execution to a key. <br />
