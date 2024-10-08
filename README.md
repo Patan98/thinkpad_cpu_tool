@@ -1,6 +1,4 @@
 # Thinkpad CPU tool
-
-## Thinkpad CPU tool
 Simple bash script to manage CPU power setting and prevent overheating using intel pstate. <br />
 
 ## Idea
