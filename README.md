@@ -41,7 +41,7 @@ There are three execution arguments: <br />
 2) Monitor: Continued Process: Enables temperature monitor and dynamically scales CPU based on temperature. <br />
 3) Boost: Continuous process: for intense use, it increases the overheating margin to 85 degrees, after 5 seconds of temperature above this threshold, the boost mode deactivates and the monitor mode is re-established. <br />
 
-# Install
+## Install
 The two folders: code and code_data should be placed in the user's home folder. <br />
 The script works interacting with /sys/devices/system/cpu/intel_pstate, so if this folder is located somewhere else for you, replace it in cpu.sh <br />
 Be sure to replace YOURUSERNAME in cpu.sh with your actual username. <br />
