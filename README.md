@@ -9,7 +9,7 @@ The operation of the software is nsure on older Intel processor models (35W / 45
 Clearly with the new models, energy performance is already highly optimized, so use is recommended mainly on models with higher consumption. <br />
 
 ## Requirements
-    # sudo apt install libttspico-utils
+    sudo apt install libttspico-utils
 
 ## Usage
 What the script actually does is dynamically modify this files to work as a CPU limiter, to always make it work at temperatures that do not damage it in the long run. <br />
@@ -23,17 +23,17 @@ If the temperature is between 75 and 80 degrees there is a tolerance of 15 secon
 If the CPU has been scaled, it returns to its previous state after 15 seconds with temperature below 75 degrees. <br />
 
 # Example <br />
-    # OVERHEATING 1
-    #                                                     CURRENT
-    # 0---------37---------60---------70---------85---------100
-    #                                           NEW
-    # 0---------37---------60---------70---------85---------100
+    OVERHEATING 1
+                                                        CURRENT
+    0---------37---------60---------70---------85---------100
+                                              NEW
+    0---------37---------60---------70---------85---------100
 
-    # OVERHEATING 2
-    #                                          CURRENT
-    # 0---------37---------60---------70---------85---------100
-    #                                NEW
-    # 0---------37---------60---------70---------85---------100
+    OVERHEATING 2
+                                             CURRENT
+    0---------37---------60---------70---------85---------100
+                                   NEW
+    0---------37---------60---------70---------85---------100
 
 
 There are three execution arguments: <br />
