@@ -57,7 +57,7 @@ Depending on your desktop environment, you can assign the script execution to a 
 
         sudo vim patan-cpu_monitor.service
     
-    Paste this inside and safe (Be sure to replace YOURUSERNAME with your actual username.): <br />
+    Paste this inside and save (Be sure to replace YOURUSERNAME with your actual username.): <br />
     
         [Unit]
         Description=
